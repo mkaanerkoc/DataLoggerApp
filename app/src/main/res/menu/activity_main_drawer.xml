@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/currentValues"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Anlık Değerler" />
+        <item
+            android:id="@+id/fileTransfer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dosya Transferi" />
+        <item
+            android:id="@+id/calibrationPage"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Kalibrasyon" />
+
+    </group>
+
+    <item android:title="Ayarlar">
+        <menu>
+            <item
+                android:id="@+id/deviceSettings"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Cihaz Ayarları" />
+            <item
+                android:id="@+id/samplingSettings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Örnek Alma Ayarları" />
+            <item
+                android:id="@+id/thresholdSettings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Alt/Üst Değerleri" />
+            <item
+                android:id="@+id/dateTimeSettings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Saat/Tarih Ayarları" />
+
+        </menu>
+    </item>
+
+    <item android:title="Cihaz Test">
+        <menu>
+            <item
+                android:id="@+id/startSampling"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Örnek Alma" />
+            <item
+                android:id="@+id/testPumps"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pompaları Çalıştır" />
+        </menu>
+    </item>
+
+</menu>
